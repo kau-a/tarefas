@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atividade</title>
+</head>
+
+<h1> Calculo de IMC </h1>
+
+<body>
+
+
+    <script type="text/javascript">
+
+        var peso = 100;
+        var altura = 1.81;
+        var imc = peso / (altura * altura);
+        
+        document.write("O seu IMC é: ", imc)
+
+         if (imc < 18.5) {
+                document.write(" magreza");
+            } else if (imc <= 24.9) {
+                document.write(" Normal");
+            } else if (imc <= 29.9) {
+                document.write(" sobreso");
+            } else if (imc <= 39.9) {
+                document.write(" Obesidade");
+            } else {
+                document.write(" Obesidade grave");
+            }
+       
+    
+            
+        
+
+    </script>
+
+</body>
+
+</html>
